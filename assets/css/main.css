@@ -111,12 +111,12 @@ input, select, textarea {
 		-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #e44c65;
+		color: #603e75;
 		text-decoration: none;
 	}
 
 		a:hover {
-			color: #e44c65 !important;
+			color: #603e75 !important;
 			border-bottom-color: transparent;
 		}
 
@@ -2186,7 +2186,7 @@ input, select, textarea {
 	}
 
 		header.major:after {
-			background: #e44c65;
+			background: #390e53;  /* important */
 			content: '';
 			display: inline-block;
 			height: 0.2em;
@@ -2255,7 +2255,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #e44c65;
+			border-color: #603e75;
 		}
 
 	select {
@@ -3139,7 +3139,7 @@ input, select, textarea {
 		}
 
 		.spotlight.style1 .content {
-			border-color: #e44c65;
+			border-color: #ffffff; /* important */
 		}
 
 		.spotlight.style2 .content {
@@ -3147,7 +3147,7 @@ input, select, textarea {
 		}
 
 		.spotlight.style3 .content {
-			border-color: #39c088;
+			border-color: #5480f1;
 		}
 
 		.spotlight.inactive .content {
@@ -3431,7 +3431,7 @@ input, select, textarea {
 						}
 
 					#header nav ul li.active > a, #header nav ul li.active > span {
-						color: #e44c65;
+						color: #603e75;
 					}
 
 					#header nav ul li > ul {
@@ -3931,8 +3931,8 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						background: #e44c65;
-						color: rgba(255, 255, 255, 0.5);
+						background: #390e53;
+						color: rgba(255, 255, 255, 0.9);
 						content: '\f0c9';
 						display: block;
 						font-size: 18px;
@@ -3966,7 +3966,8 @@ input, select, textarea {
 				top: 0;
 				width: 275px;
 				z-index: 10002;
-				background: #181920;
+				background: #390e53;
+				color : #390e53;
 				padding: 0.75em 1.25em;
 			}
 
